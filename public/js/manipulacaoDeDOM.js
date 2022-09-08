@@ -1,3 +1,16 @@
+console.log("fora Bolsonaro")
+
+//manipulação de DOM
+const loginContainer = document.getElementById("login-container")
+console.log(loginContainer);
+// alterando a cor de fundo da pág 
+loginContainer.style.backgroundColor = 'grey'
+
+//capture o email e mudar a cor da fonte para vermelho (...style.color)
+const email = document.getElementById("email")
+console.log(email)
+
+email.style.color = 'red'
 // Capturando o elemento h1.titulo
 let elementoTitulo = document.querySelector('.titulo');
 
